@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="main">
+    
+        <center>            
+            <div class="block">
+                <div class="header"><h1> Registration Form</h1></div>
+                <table border="4" id="form">
+                
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <td>
+                                <input type="text" name="fname" id="fname" placeholder="First Name">
+                                <input type="text" name="lname" id="lname" placeholder="Last Name">
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Email</th>
+                            <td><input type="email" name="email" id="email" ></td>
+                        </tr>
+                        <tr>
+                            <div id="gender">
+                                <th>Gender</th>
+                                <td>
+                                    <label class="radio">
+                                        <input type="radio" name="gen" id="gen" value="Female">
+                                            Female
+                                    </label>
+    
+                                    <label class="radio">
+                                        <input type="radio" name="gen" id="gen" value="male">
+                                            Male
+                                    </label>
+                                  
+                                    <label class="radio">
+                                        <input type="radio" name="gen" id="gen" value="Other">
+                                            Other
+                                    </label>
+                                </td>
+                            </div>
+                            
+                        </tr>
+                        <tr>
+                            <th>Institude Name</th>
+                            <td><input type="text" name="iname" id="iname"></td>
+                        </tr>
+                        <tr>
+                            <th>Course Name</th>
+                            <td><input type="text" name="cname" id="cname"></td>
+                        </tr>
+                        <tr id="btna">
+                            <td colspan="2">
+                                <input type="button" name="button" id="btn" value="Register" onclick="AddRow()">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="block">
+                <div class="header"><h1>Student Information</h1></div>
+                <table border="4" id="show">
+                    <thead>
+                        <tr>
+                            <th>FirstName</th>
+                            <th>LastName</th>
+                            <th>Email</th>
+                            <th>Gender</th>
+                            <th>Institude Name</th>
+                            <th>Course Name</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            
+        </center>
+        
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

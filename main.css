@@ -1,0 +1,99 @@
+body{
+    background-image:url("https://www.thebalancecareers.com/thmb/hKctLkuZxqFGd3XpQCUjQBjSPjQ=/3436x2577/smart/filters:no_upscale()/school-books-on-desk--education-concept-871454068-5b548900c9e77c005b04fc8c.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:"Satisfy", serif;
+    background-position:center;
+    margin-top:50px;
+}
+
+#main{
+    background-color:#654563a1;
+    width: 800px;
+    padding: 40px 30px;
+    margin:auto;
+    border-radius: 6%;
+    text-align: center;
+}
+
+.header{
+    padding-top: 37px;
+}
+
+.block{
+    width:745px;
+    margin:auto;
+    color:#FFFFFF;
+    padding:1px 10px 1px 10px;
+    border-radius:15px;
+    
+}
+
+#form{
+    padding: 70px;
+}
+
+#show{
+    padding: 20px;
+}
+
+table{
+    border-radius: 6%;
+}
+
+.radio{
+    display:inline-block;
+    position:relative;
+    font-size:20px;
+    color:white;
+}
+
+.radio input{
+    display:relative;
+    border-radius:80%;
+    color: aqua;
+}
+
+.radio:hover{
+    color: rgba(218, 186, 174, 0.911);
+}
+
+#show th, #show td{
+    padding: 13px;
+}
+
+#form th, #form td{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    background: none;
+    font-size: 20px;
+    border-radius: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.3rem 0.7rem;
+    text-align: center;
+    color: #efe3e3;
+    width: 80%;
+}
+
+#btn{
+    color: rgb(136, 137, 194);
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #4b3249dc;
+    border: none;
+}
+
+#btn:hover{
+    background-color: #4e262fdc;
+}
+
+#btn:active{
+    opacity: 0.4;
+    color: red;
+}
